@@ -9,7 +9,7 @@ resource "helm_release" "prometheus_operator" {
 
   depends_on = ["null_resource.crds"]
 
-  name       = "prometheus-operator"
+  name       = "getup"
   repository = "stable"
   chart      = "prometheus-operator"
   version    = "5.5.1"
