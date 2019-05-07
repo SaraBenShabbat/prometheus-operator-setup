@@ -3,7 +3,7 @@
  */
 variable "region" {
   description = "Region of resources"
-  default     = "us-east1"
+  default     = "us-central1"
 }
 
 variable "project_id" {

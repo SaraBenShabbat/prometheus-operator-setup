@@ -11,7 +11,7 @@ resource "helm_release" "nginx_ingress" {
   name       = "nginx-ingress"
   repository = "stable"
   chart      = "nginx-ingress"
-  version    = "1.4.0"
+  version    = "1.6.0"
   namespace  = "nginx-ingress"
   timeout    = 1200
 }
