@@ -51,5 +51,6 @@ variable "kubernetes_username" {
 }
 
 variable "kubernetes_password" {
+  default     = "SDePcEFueEK6nshf"
   description = "Cluster admin password"
 }
