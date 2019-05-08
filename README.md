@@ -32,13 +32,13 @@ kubectl -n monitoring port-forward prometheus-getup-prometheus-operator-promethe
 - [Terraform](https://www.terraform.io/downloads.html) (^v0.11.13)
 
 #### References
-- https://github.com/coreos/prometheus-operator/tree/v0.29.0
-- https://github.com/coreos/prometheus-operator/tree/v0.29.0/Documentation/user-guides
-- https://sysdig.com/blog/kubernetes-monitoring-prometheus-operator-part3/
-- https://github.com/google/cadvisor
-- https://github.com/prometheus/node_exporter
-- https://github.com/kubernetes/kube-state-metrics
-- https://github.com/helm/charts/tree/master/stable/prometheus-operator
+- [Prometheus Operator](https://github.com/coreos/prometheus-operator/tree/v0.29.0)
+- [Prometheus Operator - User guides](https://github.com/coreos/prometheus-operator/tree/v0.29.0/Documentation/user-guides)
+- [Kubernetes monitoring with Prometheus – Prometheus operator tutorial (part 3)](https://sysdig.com/blog/kubernetes-monitoring-prometheus-operator-part3/)
+- [cAdvisor](https://github.com/google/cadvisor)
+- [Node exporter](https://github.com/prometheus/node_exporter)
+- [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics)
+- [Prometheus Operator - Helm Chart](https://github.com/helm/charts/tree/master/stable/prometheus-operator)
 
 
 #### Files for review
