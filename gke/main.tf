@@ -6,7 +6,7 @@
  * API reference:           https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters
  */
 resource "google_container_cluster" "primary" {
-  name      = "primary-cluster"
+  name      = "getup-cluster"
   location  = "${var.region}"
 
   remove_default_node_pool = true

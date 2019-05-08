@@ -20,6 +20,10 @@ resource "helm_release" "prometheus_operator" {
     name  = "prometheusOperator.createCustomResource"
     value = "false"
   }
+
+  #values = [
+  #  "${file("${path.module}/alertmanager.values.yaml")}"
+  #]
 }
 
 resource "null_resource" "crds" {

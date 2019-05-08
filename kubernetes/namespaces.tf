@@ -14,13 +14,3 @@ resource "kubernetes_namespace" "monitoring" {
     name = "monitoring"
   }
 }
-
-/**
- * Ingress Nginx environment
- */
-resource "kubernetes_namespace" "nginx-ingress" {
-
-  metadata {
-    name = "nginx-ingress"
-  }
-}
