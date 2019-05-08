@@ -2,7 +2,10 @@
 
 
 ### Tools validation
-
+- Kubectl setup
+```bash
+export  KUBECONFIG=$KUBECONFIG:kubeconfig.yaml
+```
 - Grafana dashboard:
 ```bash
 kubectl -n monitoring port-forward deployment/getup-grafana 3000:3000
@@ -58,6 +61,7 @@ prometheus-operator-setup/
 │   ├── alertmanager.values.yaml
 │   ├── main.tf
 │   └── prometheus-operator.tf
+├── kubeconfig.yaml
 ├── kubernetes
 │   ├── cluster-role-bindings.tf
 │   ├── namespaces.tf
