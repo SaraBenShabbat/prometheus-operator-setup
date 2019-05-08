@@ -2,6 +2,10 @@
 
 
 ### Tools validation
+- Decrypting files
+```bash
+git-crypt unlock getup.pem
+```
 - Kubectl setup
 ```bash
 export  KUBECONFIG=$KUBECONFIG:kubeconfig.yaml
