@@ -41,7 +41,7 @@ kubectl -n monitoring port-forward prometheus-getup-prometheus-operator-promethe
 - [Prometheus Operator - Helm Chart](https://github.com/helm/charts/tree/master/stable/prometheus-operator)
 
 
-#### Files for review
+#### Files to review
 ```bash
 prometheus-operator-setup/
 ├── backend
