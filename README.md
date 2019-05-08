@@ -27,7 +27,7 @@ kubectl -n monitoring port-forward prometheus-getup-prometheus-operator-promethe
 
 #### Requirements
 
-- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (^v1.14.0)
 - [git-crypt](https://github.com/AGWA/git-crypt/blob/master/INSTALL.md) (^0.6.0)
 - [Terraform](https://www.terraform.io/downloads.html) (^v0.11.13)
 
